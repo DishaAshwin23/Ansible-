@@ -1,0 +1,15 @@
+Directory Structure 
+ansible-nginx-project/
+|-- playbooks/
+|   |-- nginx_installation.yml
+|   |-- nginx_configuration.yml
+|-- roles/
+|   |-- common/
+|       |-- tasks/
+|           |-- main.yml
+|   |-- nginx/
+|       |-- tasks/
+|           |-- main.yml
+|-- inventory/
+|   |-- hosts
+
