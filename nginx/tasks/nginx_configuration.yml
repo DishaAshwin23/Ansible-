@@ -1,0 +1,8 @@
+---
+- name: Configure NGINX
+  hosts: web_servers
+  become: true
+  gather_facts: true
+
+  roles:
+    - nginx
