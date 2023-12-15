@@ -1,0 +1,6 @@
+# Run NGINX Installation playbook
+ansible-playbook -i inventory/hosts playbooks/nginx_installation.yml
+
+# Run NGINX Configuration playbook
+ansible-playbook -i inventory/hosts playbooks/nginx_configuration.yml
+
